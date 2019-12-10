@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
  * @param {object} props = React props.
  * @returns {JSX.Element} - Rendered component
  */
-const Congrats =  (props) => {
+const Congrats = (props) => {
   if (props.success) {
     return (
       <div data-test="component-congrats" className="alert alert-success">
